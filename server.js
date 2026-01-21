@@ -18,6 +18,10 @@ app.get('/api/lucky', (req, res) => {
   });
 });
 
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
 app.listen(PORT, () => {
   console.log(`Lyckoautomaten körs på http://localhost:${PORT}`);
 });

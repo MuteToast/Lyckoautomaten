@@ -3,7 +3,7 @@ const resultDiv = document.getElementById('result');
 const errorDiv = document.getElementById('error');
 
 button.addEventListener('click', async () => {
-    resultDiv.textContent = '';
+    resultDiv.textContent = 'laddar…';
     errorDiv.textContent = '';
     try {
         const response = await fetch('/api/lucky');

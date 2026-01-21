@@ -16,7 +16,6 @@ button.addEventListener('click', async () => {
 
         resultDiv.innerHTML = `
         <h2>Ditt lyckotal är: ${data.number}</h2>
-        <p>Intervall: ${data.min}–${data.max}</p>
         <p>Lycka levererad: ${data.timestamp}</p>
         `;
     } catch (error) {
